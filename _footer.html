@@ -16,7 +16,7 @@
   <script type="text/javascript">
     function TypeaheadCtrl($scope) {
       $scope.selected = undefined;
-      $scope.searchData = 
+      $scope.searchData =
       <%= "[" %>
         <% @pages.each do |file_name, page| %>
           <% if not page[:blocks].empty? %>
